@@ -10,8 +10,7 @@ success: function(response){
 
   $('#movies').append("<div class= 'title' >" + response.Title +  "</div>");
   $('#movies').append("<div class= 'title' >" + response.Year +  "</div>");
-  // $('#movies').append("<div class= 'title' >" + response.Poster +  "</div>");
-  $('#movies').append("<div class = 'poster'><img src = 'http://kublia.lionking.org/pics/tlkcomic.jpg'></div>");
+  $('#movies').append( '<img src="'+ response.Poster +'">');
     }
 
   }); // end of ajax
