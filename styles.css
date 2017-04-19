@@ -1,0 +1,17 @@
+body{
+  background-color: teal;
+}
+h1{
+  font-family: cursive;
+  font-weight: bold;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+
+#movies{
+  font-size: 20px;
+
+  font-family: verdana;
+}
